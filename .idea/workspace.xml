@@ -13,53 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18077e5a-a04b-4c52-a5b4-d07e00b3b620" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/BGIGame.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BGIGame/Application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BGIGame/include/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BGIGame/lib/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BGIGame/src/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/200tile/200-tile0000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/200tile/200-tile0000.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/200tile/200-tile0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/200tile/200-tile0001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/200tile/200-tile0002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/200tile/200-tile0002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/200tile/200-tile0003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/200tile/200-tile0003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/200tile/200-tile0004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/200tile/200-tile0004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/bg-tile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/bg-tile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/choose-bola.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/choose-bola.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/choose-bola_tmp6937" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/choose-bola_tmp6937" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/choose-bola_tmp958" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/choose-bola_tmp958" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/choose-screen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/choose-screen.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/choose-xis.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/choose-xis.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/computador.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/computador.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/empate/empate0000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/empate/empate0000.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/empate/empate0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/empate/empate0001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/empate/empate0002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/empate/empate0002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/empate/empate0003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/empate/empate0003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/enter.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/enter.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/escolha.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/escolha.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/ganhou/ganhou0000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/ganhou/ganhou0000.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/ganhou/ganhou0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/ganhou/ganhou0001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/ganhou/ganhou0002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/ganhou/ganhou0002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/ganhou/ganhou0003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/ganhou/ganhou0003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/icon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/icon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/o-tile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/o-tile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/pausa-continuar-hover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/pausa-continuar-hover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/pausa-sair-hover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/pausa-sair-hover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/pausa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/pausa.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/perdeu/perdeu0000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/perdeu/perdeu0000.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/perdeu/perdeu0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/perdeu/perdeu0001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/perdeu/perdeu0002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/perdeu/perdeu0002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/perdeu/perdeu0003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/perdeu/perdeu0003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/tile-hover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/tile-hover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/tile-vazia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/tile-vazia.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/title-screen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/title-screen.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/voce.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/voce.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/x-tile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/x-tile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libBGIGame.a" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +96,7 @@
       <workItem from="1564156395215" duration="113000" />
       <workItem from="1565130678577" duration="3274000" />
       <workItem from="1565210541224" duration="707000" />
-      <workItem from="1565211930594" duration="1119000" />
+      <workItem from="1565211930594" duration="1472000" />
     </task>
     <servers />
   </component>
