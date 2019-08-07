@@ -3,6 +3,7 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="Project" targetName="BGIGame" />
+      <config projectName="Project" targetName="TicTacToe" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,9 +13,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18077e5a-a04b-4c52-a5b4-d07e00b3b620" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/BGIGame.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BGIGame/Application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-cpp/TicTacToe_private.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BGIGame/include/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BGIGame/lib/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BGIGame/src/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/200tile/200-tile0000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/200tile/200-tile0000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/200tile/200-tile0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/200tile/200-tile0001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/200tile/200-tile0002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/200tile/200-tile0002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/200tile/200-tile0003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/200tile/200-tile0003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/200tile/200-tile0004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/200tile/200-tile0004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/bg-tile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/bg-tile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/choose-bola.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/choose-bola.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/choose-bola_tmp6937" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/choose-bola_tmp6937" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/choose-bola_tmp958" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/choose-bola_tmp958" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/choose-screen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/choose-screen.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/choose-xis.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/choose-xis.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/computador.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/computador.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/empate/empate0000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/empate/empate0000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/empate/empate0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/empate/empate0001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/empate/empate0002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/empate/empate0002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/empate/empate0003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/empate/empate0003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/enter.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/enter.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/escolha.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/escolha.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/ganhou/ganhou0000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/ganhou/ganhou0000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/ganhou/ganhou0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/ganhou/ganhou0001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/ganhou/ganhou0002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/ganhou/ganhou0002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/ganhou/ganhou0003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/ganhou/ganhou0003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/icon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/icon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/o-tile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/o-tile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/pausa-continuar-hover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/pausa-continuar-hover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/pausa-sair-hover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/pausa-sair-hover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/pausa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/pausa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/perdeu/perdeu0000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/perdeu/perdeu0000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/perdeu/perdeu0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/perdeu/perdeu0001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/perdeu/perdeu0002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/perdeu/perdeu0002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/perdeu/perdeu0003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/perdeu/perdeu0003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/tile-hover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/tile-hover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/tile-vazia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/tile-vazia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/title-screen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/title-screen.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/voce.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/voce.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/img/x-tile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/img/x-tile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +70,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -34,6 +80,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-BGIGame" />
   </component>
   <component name="ProjectId" id="1P4Q1PvOwdZD9fiEQMF2jETywM3" />
   <component name="ProjectLevelVcsManager">
@@ -47,15 +96,15 @@
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\college-2015-tic-tac-toe-cpp\BGIGame\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\college-2015-tic-tac-toe-cpp" />
       <recent name="D:\college-2015-tic-tac-toe-cpp\TicTacToe" />
+      <recent name="D:\college-2015-tic-tac-toe-cpp\src" />
+      <recent name="D:\college-2015-tic-tac-toe-cpp" />
       <recent name="D:\college-2015-tic-tac-toe-cpp\BGIGame" />
       <recent name="E:\tic-tac-toe\bin" />
-      <recent name="E:\tic-tac-toe\cmake-build-debug" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\college-2015-tic-tac-toe-cpp\BGIGame\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -70,6 +119,13 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="TicTacToe" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="TicTacToe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="TicTacToe">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -82,7 +138,9 @@
       <updated>1564155146494</updated>
       <workItem from="1564155155284" duration="1150000" />
       <workItem from="1564156395215" duration="113000" />
-      <workItem from="1565130678577" duration="3195000" />
+      <workItem from="1565130678577" duration="3274000" />
+      <workItem from="1565210541224" duration="707000" />
+      <workItem from="1565211930594" duration="1119000" />
     </task>
     <servers />
   </component>
@@ -94,7 +152,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
