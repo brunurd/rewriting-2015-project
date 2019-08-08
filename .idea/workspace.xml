@@ -4,6 +4,7 @@
     <generated>
       <config projectName="Project" targetName="BGIGame" />
       <config projectName="Project" targetName="TicTacToe" />
+      <config projectName="Project" targetName="TicTacToeLegacy" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -13,9 +14,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18077e5a-a04b-4c52-a5b4-d07e00b3b620" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BGIGame/GameObject.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BGIGame/Input.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/main_legacy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/scenes/IntroScene.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libBGIGame.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/BGIGame.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/BGIGame.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libBGIGame.a" beforeDir="false" afterPath="$PROJECT_DIR$/lib/libBGIGame.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BGIGame/Application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/BGIGame/Application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/BGIGame/src" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
@@ -75,12 +84,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.TicTacToe">
     <configuration name="TicTacToe" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="TicTacToe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="TicTacToe">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicTacToeLegacy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="TicTacToeLegacy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="TicTacToeLegacy">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.TicTacToe" />
+      <item itemvalue="CMake Application.TicTacToeLegacy" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -96,7 +114,8 @@
       <workItem from="1564156395215" duration="113000" />
       <workItem from="1565130678577" duration="3274000" />
       <workItem from="1565210541224" duration="707000" />
-      <workItem from="1565211930594" duration="1472000" />
+      <workItem from="1565211930594" duration="16082000" />
+      <workItem from="1565229003097" duration="282000" />
     </task>
     <servers />
   </component>
