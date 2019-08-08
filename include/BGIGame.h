@@ -19,6 +19,10 @@ namespace BGIGame {
     struct Rect {
         Point position;
         Point size;
+
+        void setSize(int width, int height);
+
+        void setPosition(int x, int y);
     };
 
     struct KeyCode {
@@ -84,11 +88,9 @@ namespace BGIGame {
 
         ~Application();
 
+        Rect &rect();
+
         void setTitle(const char *title);
-
-        void setSize(int width, int height);
-
-        void setPosition(int x, int y);
 
         void start(Scene &scene);
 

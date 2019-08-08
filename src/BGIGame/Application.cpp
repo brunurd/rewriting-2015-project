@@ -6,10 +6,14 @@ Scene *Application::m_currentScene = 0;
 bool Application::m_initialized = false;
 bool Application::m_quit = false;
 
+Rect &Application::rect() {
+    return m_rect;
+}
+
 Application::Application() {
     m_title = "BGI Game";
-    setSize(800, 600);
-    setPosition(0, 0);
+    rect().setSize(800, 600);
+    rect().setPosition(0, 0);
 }
 
 Application::~Application() {
@@ -18,16 +22,6 @@ Application::~Application() {
 
 void Application::setTitle(const char *title) {
     m_title = title;
-}
-
-void Application::setSize(int width, int height) {
-    m_rect.size.x = width;
-    m_rect.size.y = height;
-}
-
-void Application::setPosition(int x, int y) {
-    m_rect.position.x = x;
-    m_rect.position.y = y;
 }
 
 void Application::init() {

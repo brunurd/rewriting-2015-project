@@ -11,6 +11,7 @@ add_library(BGIGame
         src/BGIGame/GameObject.cpp
         src/BGIGame/Input.cpp
         src/BGIGame/Timer.cpp
+        src/BGIGame/Rect.cpp
         )
 
 add_executable(TicTacToe
