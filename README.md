@@ -2,7 +2,7 @@
 
 I'm currently rewriting the code of this repository (a college project made in 2015 using **[Borland BGI](http://www.codecutter.net/tools/winbgim/)**) to test my skills and study C++.
 
-Original 2015 code: [here](https://github.com/brunurd/rewriting-2015-project/tree/2015-version)  
+Original 2015 code: [here](https://github.com/brunurd/rewriting-2015-project/releases/tag/2015-version)  
 Rewrited 2019 code: _\<coming soon\>_
 
 ## How to compile (Windows only)
