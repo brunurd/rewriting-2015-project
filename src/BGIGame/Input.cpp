@@ -1,4 +1,3 @@
-#include <graphics.h>
 #include <BGIGame.h>
 
 using namespace BGIGame;

@@ -3,6 +3,8 @@
 
 #include <vector>
 #include <string>
+#include <graphics.h>
+#include <windows.h>
 
 #ifndef nullptr
 #define nullptr 0
@@ -24,23 +26,45 @@ namespace BGIGame {
         static int const ESC = 27;
     };
 
+    class Timer {
+    private:
+        LARGE_INTEGER m_startingTime;
+        LARGE_INTEGER m_endingTime;
+        LARGE_INTEGER m_frequency;
+
+        void stop();
+
+    public:
+        static double tick;
+
+        Timer();
+
+        ~Timer();
+    };
+
     class Component {
     };
 
     class GameObject {
     private:
         std::vector<Component> m_components;
-        std::vector<GameObject*> m_children;
+        std::vector<GameObject *> m_children;
         bool m_loaded;
+        bool m_enabled;
+        std::string m_name;
 
     public:
+        GameObject();
+
         void render(double tick = 0);
 
         void renderChildren(double tick = 0);
 
-        virtual void load();
+        void setEnabled(bool enabled);
 
-        virtual void update(double tick);
+        virtual void onLoad();
+
+        virtual void onUpdate(double tick);
     };
 
     typedef GameObject Scene;
@@ -67,8 +91,6 @@ namespace BGIGame {
         void setPosition(int x, int y);
 
         void start(Scene &scene);
-
-        static void loadScene(Scene &scene);
 
         static void quit();
     };

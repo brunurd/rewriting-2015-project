@@ -1,4 +1,3 @@
-#include <graphics.h>
 #include <BGIGame.h>
 
 using namespace BGIGame;
@@ -44,20 +43,16 @@ void Application::start(GameObject &scene) {
     m_currentScene = &scene;
 
     while (!m_quit) {
-        m_currentScene->render(0);
+        Timer timer;
+        m_currentScene->render(Timer::tick);
         Input::update();
     }
 
     closegraph();
-}
-
-void Application::loadScene(GameObject &scene) {
     delete m_currentScene;
-    m_currentScene = &scene;
+    delete Input::getInstance();
 }
 
 void Application::quit() {
     m_quit = true;
-    delete m_currentScene;
-    delete Input::getInstance();
 }

@@ -1,30 +1,42 @@
-#include <vector>
 #include <BGIGame.h>
 
 using namespace BGIGame;
 
+GameObject::GameObject() {
+    m_loaded = false;
+    setEnabled(true);
+}
+
 void GameObject::render(double tick) {
+    if (!m_enabled) {
+        return;
+    }
+
     if (!m_loaded) {
-        load();
+        onLoad();
         m_loaded = true;
         renderChildren();
         return;
     }
 
-    update(tick);
+    onUpdate(tick);
     renderChildren(tick);
 }
 
 void GameObject::renderChildren(double tick) {
-    if (m_children.empty())
-    {
+    if (m_children.empty()) {
         return;
     }
 
-    for (int i = 0; m_children.size(); i++) {
+    for (int i = 0; i < m_children.size(); i++) {
         m_children[i]->render(tick);
     }
 }
 
-void GameObject::load() {}
-void GameObject::update(double tick) {}
+void GameObject::setEnabled(bool enabled) {
+    m_enabled = enabled;
+}
+
+void GameObject::onLoad() {}
+
+void GameObject::onUpdate(double tick) {}
