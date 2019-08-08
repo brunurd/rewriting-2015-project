@@ -6,4 +6,4 @@ I'm currently rewriting the code of this repository (a college project made in 2
 
 ### MinGW (cmake, make, gcc)
 
-You can generate a project runing cmake in the root folder, I build using CLion with a MinGW i686/32-bit stack. It don't work with Visual C++ because the bgi static lib is not a `.lib` file.  
+You can generate a project runing cmake in the root folder, I build using CLion with a MinGW stack (I use version 4.6.2 32-bit). It don't work with Visual C++ because the bgi static lib is not a `.lib` file.  
